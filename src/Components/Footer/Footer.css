@@ -1,0 +1,293 @@
+.whole-footer{
+    background-color: #000000;
+    color: aliceblue;
+}
+.footer{
+    width: 90%;
+    height: 75vh;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-left{
+    width: 37vw;
+    padding: 10px;
+    /* background-color: bisque; */
+}
+.footer-left p{
+    width: 40%;
+}
+.platform{
+    width: 18vw;
+    height: 100%;
+    /* background-color: rgb(39, 18, 59); */
+    display: flex;
+    flex-direction: column;
+}
+.p-head{
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+
+}
+.p-menu {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.p-menu a{
+    color: #777373;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.pressroom{
+    width: 17vw;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+.press-head{
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.p-images {
+    width: 100%;
+    height: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.p-images a{
+    color: #777373;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.policy{
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.policy-head{
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.reachus{
+    width: 15vw;
+    height: 100%;
+    /* background-color: rgb(26, 1, 49); */
+    display: flex;
+    flex-direction: column;
+}
+.r-head{
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+
+}
+.r-menu {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.r-menu a{
+    color: #777373;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.copyrights{
+    width: 100%;
+    height: 40%;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+.copyright-icon{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -20px;
+}
+.thunder-icon{
+    position: absolute;
+    margin-top: 4px;
+    color: #FFC83D;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px){
+    .whole-footer{
+        background-color: #000000;
+        color: aliceblue;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .footer-left{
+        width: 50vw;
+        padding: 10px;
+        /* background-color: bisque; */
+    }
+    .footer-left p{
+        width: 40%;
+    }
+    .platform{
+        width: 50vw;
+        height: auto;
+        /* background-color: rgb(39, 18, 59); */
+        display: flex;
+        flex-direction: column;
+    }
+    .p-head{
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+    
+    }
+    .p-menu {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .p-menu a{
+        color: #777373;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .pressroom{
+        width: 50vw;
+        height: 100%;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+    }
+    .press-head{
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+    .p-images {
+        width: 100%;
+        height: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .p-images a{
+        color: #777373;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .policy{
+        width: 100%;
+        height: 60%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .policy-head{
+        width: 100%;
+        height: 15%;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .reachus{
+        width: 50vw;
+        height: 100%;
+        /* background-color: rgb(26, 1, 49); */
+        display: flex;
+        flex-direction: column;
+    }
+    .r-head{
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+    
+    }
+    .r-menu {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .r-menu a{
+        color: #777373;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .copyrights{
+        width: 100%;
+        height: 40%;
+        background-color: #FFFFFF;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 16px;
+    }
+    .copyright-icon{
+        position: absolute;
+        margin-top: 4px;
+        margin-left: -20px;
+    }
+    .thunder-icon{
+        position: absolute;
+        margin-top: 4px;
+        color: #FFC83D;
+        font-size: 20px;
+    }
+}
