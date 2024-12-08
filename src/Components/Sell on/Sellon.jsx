@@ -7,7 +7,7 @@ import cs_img from "../../Assets/Images/1mdm-product-3.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules'; 
+import { Autoplay, Navigation } from 'swiper/modules'; 
 import { FaQuoteLeft } from "react-icons/fa";
 import slide_img_1 from '../../Assets/Images/slider-1.webp'
 import slide_img_2 from '../../Assets/Images/slider-2.webp'
@@ -204,7 +204,15 @@ const Sellon = () => {
         <div className="swiper-head">
             <h2>Success stories from 1mdm.com sellers</h2>
         </div>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper 
+      navigation={true} 
+      loop={true}
+      autoplay={{
+        delay: 3000, 
+        disableOnInteraction: false
+      }}
+      modules={[Navigation,Autoplay]} 
+      className="mySwiper">
         <SwiperSlide>
             <div className="slide-content">
             <div className="sell-slide-contnet">

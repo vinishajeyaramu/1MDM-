@@ -20,7 +20,7 @@ const Pricingmain = () => {
                     <span>$3,499</span>/year
                     </p>
                     <p className="monthly-price">$291.5/month</p>
-                    <button className="btn select-btn">Select & Pay</button>
+                    <button className="btn select-btn-1">Select & Pay</button>
             </td>
             <td className='t-sub '><span className="highlight">2-year with 20% Savings</span>
                 
@@ -40,21 +40,27 @@ const Pricingmain = () => {
                     <span>$6,999</span>/year
                     </p>
                     <p className="monthly-price">$583.2/month</p>
-                    <button className="btn select-btn">Select & Pay</button>
+                    <button className="btn select-btn-1">Select & Pay</button>
                 
             </td>
           </tr>
           <tr>
-            <th className='t-head'>Post products</th>
+            <th className='t-head'>Platform features</th>
+            <td className='null-row'></td>
+            <td className='null-row'></td>
+            <td className='null-row'></td>
+          </tr>
+          <tr>
+            <td className='t-head'>Post products</td>
             <td className='t-sub'>Unlimited</td>
             <td className='t-sub'>Unlimited</td>
             <td className='t-sub'>Unlimited</td>
           </tr>
           <tr>
             <td className='t-head'>Receive & respond to inquiries</td>
-            <td className='t-sub'>Unlimited</td>
-            <td className='t-sub'>Unlimited</td>
-            <td className='t-sub'>Unlimited</td>
+            <td className='null-row'></td>
+            <td className='null-row'></td>
+            <td className='null-row'></td>
           </tr>
           <tr>
             <td className='t-head'>Keyword ad spend</td>
@@ -158,6 +164,13 @@ const Pricingmain = () => {
 
             </div>
           </div>
+          <div className="footer-banner">
+        <h2>Ready to Grow Your Business?</h2>
+        <div className="f-button-div">
+              <button className="f-btn-1">Start Selling</button>
+              <button className="f-btn-2">Chat with consultant</button>
+        </div>
+      </div>
     </div>
     </>
   )

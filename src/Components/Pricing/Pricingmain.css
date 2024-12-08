@@ -25,6 +25,7 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
   }
   
   
@@ -90,7 +91,16 @@
     font-size: 16px;
     cursor: pointer;
   }
-  
+  .select-btn-1 {
+    background: red;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
   
   .features-table {
     width: 100%;
@@ -136,22 +146,21 @@ tbody tr .t-head{
 
 .features-table {
     width: 100%;
-    border-collapse: collapse; /* Ensures borders don’t overlap */
+    border-collapse: collapse; 
     margin-top: 20px;
   }
   
-  /* Add border to entire table */
   .features-table th,
   .features-table td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Default cell border */
+    border: 1px solid #ddd; 
   }
   .features-table tr:first-child td:nth-child(3) {
-    border-top: 3px solid red; /* Add a blue top border */
+    border-top: 3px solid red;
   }
   .features-table tr:last-child td:nth-child(3) {
-    border-bottom: 3px solid red; /* Add a red bottom border */
+    border-bottom: 3px solid red; 
   }
   
   .features-table td:nth-child(3),
@@ -161,7 +170,7 @@ tbody tr .t-head{
   
   .features-table td:nth-child(4),
   .features-table th:nth-child(4) {
-    border-left: 2px solid red; /* Left border for the fourth column */
+    border-left: 2px solid red;
   }
 .p-foot{
     width: 90%;
@@ -171,6 +180,7 @@ tbody tr .t-head{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 .p-foot h3{
     width: 100%;
@@ -193,4 +203,451 @@ tbody tr .t-head{
 .p-foot button{
     width: 20%;
     margin-left: 40%;
+    margin-top: 0px;
+}
+.footer-banner{
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../Assets/Images/footer-banner.png");
+  background-color: #a10005;
+  position: relative;
+  overflow-x: hidden;
+
+}
+.footer-banner h2{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+  position: absolute;
+  padding: 6%;
+  width: 100%;
+  text-align: center;
+  margin-top: 0%;
+}
+.f-button-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 6%;
+  text-align: center;
+  margin-left: 30%;
+}
+.f-button-div button{
+  margin-top: 10%;
+}
+.f-button-div .f-btn-1{
+  margin-top: 0%;
+}
+.f-btn-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ff3d3d;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #ff3d3d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+}
+.f-btn-1:hover{
+  color: #fff;
+  background-color: #ff3d3d;
+  border: 1px solid #fff;
+}
+.f-btn-2{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding:  10px;
+  border: 1px solid #ff3d3d;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #ff3d3d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+}
+.f-btn-2:hover{
+  color: #ff3d3d;
+  background-color:#fff ;
+  border: 1px solid #ff3d3d;
+}
+@media screen and (max-width:768px){
+  .price-head{
+    width: 100%;
+    padding: 0%;
+    margin: 0 auto;
+}
+.price-head h3{
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 33.6px;
+    margin-top: 40px;
+}
+.price-head p{
+    color: #212529;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+.pricing-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: scroll;
+  }
+  
+  
+  .pricing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .featured {
+    border: 2px solid red;
+  }
+  
+  .plan-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    color: #333;
+  }
+  .plan-title-1{
+    font-size: 27.5px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .highlight {
+    width: 116%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: red;
+    display: block;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .monthly-price {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .select-btn {
+    background: red;
+    color: white;
+    border: none;
+    margin-top: 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .select-btn-1 {
+    background: red;
+    color: white;
+    border: none;
+    margin-top: 38px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .features-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .features-table th,
+  .features-table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .features-table th {
+    background: #FFFFFF;
+    color: #333;
+  }
+  .features-table tr {
+    background: #FFFFFF;
+}
+.t-sub{
+    text-align: center;
+    font-size: 14px;
+}
+tbody tr td .t-sub{
+    color: #212529;
+    font-size: 18px;
+    font-weight: 400;
+}
+tbody tr .t-head{
+    text-align: start;
+    font-size: 13px;
+    
+}
+
+
+.null-row{
+    background-color: #F6F6F6;
+}
+
+.features-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+  }
+  
+
+  .features-table th,
+  .features-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; 
+  }
+  .features-table tr:first-child td:nth-child(3) {
+    border-top: 3px solid red; 
+  }
+  
+  .features-table tr:last-child td:nth-child(3) {
+    border-bottom: 3px solid red; 
+  }
+  
+  .features-table td:nth-child(3),
+  .features-table th:nth-child(3) {
+    border-left: 2px solid red;
+  }
+  
+  .features-table td:nth-child(4),
+  .features-table th:nth-child(4) {
+    border-left: 2px solid red;
+  }
+.p-foot{
+    width: 100%;
+    height: 40vh;
+    padding: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+}
+.p-foot h3{
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+    margin-top: 30px;
+}
+.p-foot p{
+    color: #212529;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.p-foot button{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.footer-banner{
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../Assets/Images/footer-banner.png");
+    background-color: #a10005;
+    position: relative;
+}
+.footer-banner h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    position: absolute;
+    padding: 6%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+}
+.f-button-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 6%;
+    text-align: center;
+    margin-left: 30%;
+}
+.f-button-div button{
+    margin-top: 10%;
+}
+.f-button-div .f-btn-1{
+    margin-top: 0%;
+}
+.f-btn-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ff3d3d;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #ff3d3d;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+.f-btn-1:hover{
+    color: #fff;
+    background-color: #ff3d3d;
+    border: 1px solid #fff;
+}
+.f-btn-2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding:  10px;
+    border: 1px solid #ff3d3d;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #ff3d3d;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+}
+.f-btn-2:hover{
+    color: #ff3d3d;
+    background-color:#fff ;
+    border: 1px solid #ff3d3d;
+}
+.footer-banner{
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../Assets/Images/footer-banner.png");
+  background-color: #a10005;
+  position: relative;
+  overflow-x: hidden;
+}
+.footer-banner h2{
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 38.4px;
+  position: absolute;
+  padding: 5%;
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
+.f-button-div{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 6%;
+  text-align: center;
+  margin-left: 15%;
+}
+.f-button-div button{
+  margin-top: 10%;
+}
+.f-button-div .f-btn-1{
+  margin-top: 60%;
+}
+.f-btn-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ff3d3d;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #ff3d3d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+  width: 70%;
+  font-family: Poppins, sans-serif;
+}
+.f-btn-1:hover{
+  color: #fff;
+  background-color: #ff3d3d;
+  border: 1px solid #fff;
+}
+.f-btn-2{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding:  10px;
+  border: 1px solid #ff3d3d;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #ff3d3d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+}
+.f-btn-2:hover{
+  color: #ff3d3d;
+  background-color:#fff ;
+  border: 1px solid #ff3d3d;
+}
 }

@@ -59,7 +59,7 @@ nav{
     color: #FF0000;
 }
 .menu{
-    display: inline-flex;
+    display: flex;
 }
 .menu-1 {
     display:none;
@@ -166,6 +166,8 @@ nav{
         height: 25vh;
         margin-left: -300px; 
         margin-top: 20px;
+        position: absolute;
+        z-index: 99;
       }
       .menu-1 a{
         font-size: 16px;
@@ -176,11 +178,13 @@ nav{
         color: #FF0000;
     }
     .hamburger{
+        display: block;
         width: 10%;
         height: 5%;
         margin-top: -82px;
         margin-left:330px;
         background-color: #FF0000;
+        
     }
     .hamburger button {
         width: 100%;
